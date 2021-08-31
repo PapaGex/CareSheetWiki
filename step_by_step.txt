@@ -1,0 +1,30 @@
+Take it slow and step by step!
+Ask all the questions! 
+Do not stay stuck for more than 1 hour. 
+The Express and Models setup should take around 2-5 hours.
+For most of the "getting started" tasks, don't guess! Look it up or ask, then implement.
+
+Set up npm, install Express
+
+Configure Express to use Handlebars (just like your Cube app, or Google "configure express handlebars"
+Setup your routing: 
+https://expressjs.com/en/guide/routing.html
+
+Test all guest routes res.send("Login route works...")
+*This should take around 1-3 hours to complete. If you've spent that much time make sure you're asking questions.
+Once your basic routes are working, move on to the Models
+
+Create the Schema and Models. https://mongoosejs.com/docs/index.html
+Then test by writing a hard coded entry that creates a new object based on the model and saves it to your database. 
+Check your Mongo DB to verify the data is being saved.
+
+Just like the kitten example on the Mongoose docs.
+*This should take around 1-2 hours to complete.
+Now work on controllers ( req, res, next) => { // your code here }
+Now using your working models and routes, start to add the functionality.
+Start with all the guest user routes
+Render the home page with data from your database
+Set up registering a user, take it slow and step by step
+Console log to make sure you're getting the data at each step
+Break each controllers task down into smaller pieces and solve one at a time
+For example login, you have to first find the user, then check the password, then create a JWT and then redirect them.
