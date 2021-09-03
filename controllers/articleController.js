@@ -3,7 +3,7 @@ const Article = require('../models/Article');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
-exports.mainPage =async function(req, res) {
+exports.mainPage = async function(req, res) {
 
     const articles = await Article.find().lean();
     res.render("index", { articles });

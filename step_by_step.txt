@@ -20,6 +20,7 @@ Check your Mongo DB to verify the data is being saved.
 
 Just like the kitten example on the Mongoose docs.
 *This should take around 1-2 hours to complete.
+
 Now work on controllers ( req, res, next) => { // your code here }
 Now using your working models and routes, start to add the functionality.
 Start with all the guest user routes
